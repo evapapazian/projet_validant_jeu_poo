@@ -34,8 +34,12 @@ puts "Tu t'appelles #{name}. A chaque tour, tu vas pouvoir choisir d'effectuer u
 while user.life_points >0 && (player1.life_points > 0 || player2.life_points >0)
 
 #La boucle tourne tant que les personnages ont des points de vie. On affiche l'état actuel de l'utilisateur (100pts de vie et arme de niveau 1)	
+  puts ""
+  puts "Voici l'état de ton perso:"
+  puts ""
   user.show_state 
   puts ""
+  puts "------------------------------------------------------"
   puts "Quelle action veux-tu effectuer?"
   puts""
   puts "a : Chercher une meilleure arme"
