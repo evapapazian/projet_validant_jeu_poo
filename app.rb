@@ -38,5 +38,4 @@ while player1.life_points > 0 && player2.life_points > 0
 
 
 
-binding.pry
-#break if blablabla
+#binding.pry
